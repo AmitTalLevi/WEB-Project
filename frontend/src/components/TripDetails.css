@@ -1,0 +1,88 @@
+/* Container for the entire trip details page */
+.trip-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
+  }
+  
+  /* Header styling */
+  .trip-details-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Prompt styling */
+  .trip-details-prompt {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  /* Map container styling */
+  .map-container {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #e0e4e8;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Day detail styling */
+  .trip-details {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .day-detail {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .day-detail h3 {
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .day-detail p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  /* Image container styling */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .spinner {
+    font-size: 1.5rem;
+    color: #777;
+  }
+  
+  .image-error {
+    color: #d9534f;
+    font-size: 1.2rem;
+  }
+  
+  .generated-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

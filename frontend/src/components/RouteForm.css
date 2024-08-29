@@ -1,0 +1,92 @@
+/* Container styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9fafb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Header styling */
+  .header {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  /* Label styling */
+  .label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+  }
+  
+  /* Select and input styling */
+  .select,
+  input[type="text"],
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .form {
+      padding: 20px;
+    }
+  }
+
+  /* Prompt Text Styling */
+.prompt {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%; 
+    width: 100%;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prompt:hover {
+    white-space: initial;
+    overflow: visible;
+  }
+  
+  
