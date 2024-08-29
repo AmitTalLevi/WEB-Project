@@ -30,12 +30,12 @@ npm (v6.0.0 or later)
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/3-daily-route-trips.git
+   git clone https://github.com/Your-User-Name/WEB-Project.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd 3-daily-route-trips
+   cd WEB-Project
    ```
 
 3. Install the dependencies for both frontend and backend:
