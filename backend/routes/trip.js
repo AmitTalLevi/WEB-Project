@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require("uuid");
 const Trip = require('../models/Trip');
 
 const client = new Groq({
-  apiKey: "gsk_MWAKXeLar6vFSZoi9Hr7WGdyb3FYR4N59XSFLB42UGGK91bYY7H",
+  apiKey: "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",
 });
 
 
